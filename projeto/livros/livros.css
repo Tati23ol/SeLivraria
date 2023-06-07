@@ -1,0 +1,168 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-color: #0374be;
+}
+#navbarSupportedContent {
+    margin-left: 30%;
+    display: block;
+}
+
+.nav-menu {
+    height: 100px;
+    font-size: 20px;
+    display: block;
+}
+
+.botao-home {
+    display: block;
+    position: relative;
+    background-color: #30363a;
+}
+
+
+.botao-pesquisar {
+    width: 100px;
+    height: 40px;
+}
+
+
+/* CENTRALIZAR IMAGEM */
+.container {
+  display: flex;
+  padding: 5% 0% 0% 3%;
+  margin: 20vh 0vh 0vh 30vh;
+  background-color: #0e3e5e;
+}
+
+.livrosFoto {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  top: 50px; 
+  left: 0; 
+
+
+}
+
+.texto {
+  text-align: center;
+  max-width: 60vh;
+  margin: 0% 5% 0% 20%;
+  color: #fff;
+  border:2px solid #30363a;
+
+}
+
+.tamanho {
+  width: 100%;
+  
+}
+.card{
+    display: block;
+    height: 0px;
+    border: 1px solid #30363a;
+
+
+}
+
+
+/* COMENTARIOS */
+
+.comentarios {
+  margin-top: -120px;
+  padding: 20vh;
+}
+
+.comentario {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 60px;
+  border: 4px solid #30363a;
+  background-color: #fff;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.conteudo {
+  flex: 1;
+}
+
+.titulo{
+    display: flexbox;
+    text-align: center;
+    margin-top: 5%;
+    height: 200px;
+    width: 100%;
+    color: #fcfcfc;
+    background-color: #0c4266;
+}
+
+.titulo h1 {
+  position: absolute;
+  margin-left: 80vh;
+  margin-top: 100px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+/* FORM FOMULARIO */
+
+.card_Adiconar {
+  margin-top: 25px;
+
+  text-align: center;
+  background-color: #0e3e5e;
+  color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulario{
+
+    height: auto;
+    width: auto;
+}
+input,
+textarea {
+  width: 50%;
+  padding: 5px;
+}
+
+button {
+  background-color: #4c87af;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4c87af;
+  margin: 10px 10px 10px 10px;
+
+}
+
+#mensagem{
+    height: 250px;
+}
+
+#btn_enviar{
+    margin: 10px 10px 10px 10px;
+    height: 50px;
+
+}

@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-color: #30363a;
+}
+#navbarSupportedContent {
+    margin-left: 30%;
+
+}
+
+.nav-menu {
+    height: 100px;
+    font-size: 20px;
+}
+
+.botao-home {
+    position: relative;
+    background-color: #30363a;
+}
+
+
+.botao-pesquisar {
+    width: 500px;
+    height: 40px;
+}
+
+.teste{
+    margin-top: 10%;
+}
+.chat-container {
+  max-width: 900px;
+  top: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #0e3e5e;
+  color: white;
+}
+
+.chat {
+
+  margin-bottom: 300px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 5px;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 20px;
+}
+
+.input-area input {
+  flex-grow: 1;
+
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-area button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #0e3e5e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_enviar{
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    background-color: #8a8e91;
+
+}
